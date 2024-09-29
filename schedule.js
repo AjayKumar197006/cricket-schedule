@@ -3,7 +3,7 @@ const db=require("./db")
 
 const app=express()
 app.use(express.json())
-app.listen("https://cricket-schedule.up.railway.app",()=>
+app.listen(8000,()=>
     {
         console.log("Server Started")
     })
